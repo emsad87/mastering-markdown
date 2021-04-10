@@ -74,12 +74,12 @@ Some ~~Strikethrough~~ tekst
 [This is a link](https://emsad87.github.io/ "This is a link")
 ```
 
-[This is a link separated][1]
+[This is a link separated][emsadportfolio]
 
 ```md
-[This is a link separated][1]
+[This is a link separated][emsadportfolio]
 
-[1]: https://emsad87.github.io/
+[emsadportfolio]: https://emsad87.github.io/
 ```
 
 ---
@@ -88,45 +88,28 @@ Some ~~Strikethrough~~ tekst
 
 Image with "alt" and "title"
 
-![Emsad Image](https://emsad87.github.io/img/emsad/emsad3.jpg "Emsad")
+![Random Unsplash Image](https://source.unsplash.com/random/200x200/ "Random Unsplash Image")
 
 ```md
-![Emsad Image](https://emsad87.github.io/img/emsad/emsad3.jpg "Emsad")
+![Random Unsplash Image](https://source.unsplash.com/random/200x200/ "Random Unsplash Image")
 ```
 
 Image with separated source link
 
-![Emsad Image][emsad]
+![Random Unsplash Image][randomunsplash]
 
 ```md
-![Emsad Image][emsad]
+![Random Unsplash Image][randomunsplash]
 
-[emsad]: https://emsad87.github.io/img/emsad/emsad3.jpg
+[randomunsplash]: https://source.unsplash.com/random/200x200/
 ```
 
-Image with HTML tags
+Image with HTML tags and inline styling
 
-<img src="https://emsad87.github.io/img/emsad/emsad3.jpg">
+<img width="200px"  src="https://emsad87.github.io/img/emsad/emsad3.jpg">
 
 ```md
-<img src="https://emsad87.github.io/img/emsad/emsad3.jpg">
-```
-
-Styling Images with css or inline
-
-```html
-<style>
-  img {
-    width: 200px;
-  }
-</style>
-
-<img width="200px" src="https://emsad87.github.io/img/emsad/emsad3.jpg" />
-
-<img
-  style="width: 200px;"
-  src="https://emsad87.github.io/img/emsad/emsad3.jpg"
-/>
+<img width="200px"  src="https://emsad87.github.io/img/emsad/emsad3.jpg">
 ```
 
 ---
@@ -269,11 +252,5 @@ var x = 100;
 - [ ] Drink water
 - [x] Be positive
 
-<style>
-img{
-    width: 200px;
-}
-</style>
-
-[1]: https://emsad87.github.io/
-[emsad]: https://emsad87.github.io/img/emsad/emsad3.jpg
+[emsadportfolio]: https://emsad87.github.io/
+[randomunsplash]: https://source.unsplash.com/random/200x200/
